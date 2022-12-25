@@ -4,8 +4,9 @@ public class Casting {
 
 	public static void main(String[] args) {
 		byte b = 1;
+	//	char c = 'A';
 		int i = b;
-		long l = 1234567;
+		long l = 1234568;
 		//b가 1바이트고 int가 4바이트라 에러없이 된다
 		
 		System.out.println( i + l);
